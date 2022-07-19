@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: linear-gradient(rgba(19, 81, 119, 0.438), rgba(19, 81, 119, 0.438)), url('images/slider\ img.png');
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;
+}
+
+.pContainer {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255);
+    opacity: 0.9;
+    text-align: center;
+}
+
+.p2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    font-stretch: normal;
+    color: white;
+    text-align: center;
+}
+
+.pContainer button {
+
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #02a4ef;
+    border: none;
+    color: white;
+    margin-top: 10%;
+    margin-left: 30%;
+
+}
+
+.parentDiv {
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftDiv {
+    width: 40%;
+}
+
+.leftDiv p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.leftDiv span,
+.bottomDiv span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.rightDiv {
+    width: 50%;
+}
+
+.rightDiv p {
+    margin-bottom: 1%;
+    font-weight: 200;
+}
+
+.bottomDiv {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.section2 {
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.section2 div {
+    position: relative;
+    width: 23%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    height: 180px;
+    /* background-image: url('images/Group\ 123.png'); */
+    background-size: contain;
+    
+    display: inline-block;
+
+}
+.section2 p{
+    color:white;
+    position: absolute;
+    bottom:10px;
+    left:10px
+}
+.div1{
+    background-image: url('/images/Group\ 123.png');
+}
+.div2{
+    background-image: url('/images/Group\ 124.png');
+}
+.div3{
+    background-image: url('/images/Group\ 125.png');
+}
+.div4{
+    background-image: url('/images/Group\ 126.png');
+}
+.div5{
+    background-image: url('/images/Group\ 127.png');
+}
+.div6{
+    background-image: url('/images/Group\ 128.png');
+}
+.div7{
+    background-image: url('/images/Group\ 129.png');
+}
+.section3{
+    width: 90%;
+    margin-top: 5%;
+}
+.wrapper{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .leftDiv{
+    background-image: url('images/Group\ 101.png');
+    width: 50%;
+    margin-right: 5%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.wrapper .rightDiv{
+    
+    width: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.wrapper .rightDiv a{
+    text-decoration: none;
+    color: #02a4ef;
+}
+.wrapper .rightDiv span{
+font-size: 25px;
+}
+.wrapper .rightDiv p{
+    font-size: 19px;   
+}
+.wrapper .rightDiv button{
+    width: 180px;
+    height: 40px;
+    
+    /* background-color: #458bac; */
+background-image: linear-gradient(to right, #02a4ef , #458bac);;
+    border: none;
+    color: white;
+}
