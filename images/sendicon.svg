@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.005" viewBox="0 0 16 16.005">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+      }
+    </style>
+  </defs>
+  <path id="Icon_awesome-paper-plane" data-name="Icon awesome-paper-plane" class="cls-1" d="M14.877.1.391,8.456A.751.751,0,0,0,.46,9.806L3.782,11.2l8.979-7.913a.187.187,0,0,1,.269.259L5.5,12.719v2.516a.75.75,0,0,0,1.328.494l1.985-2.416,3.894,1.631a.752.752,0,0,0,1.031-.569L15.99.874A.75.75,0,0,0,14.877.1Z" transform="translate(-0.001 0.002)"/>
+</svg>
