@@ -16,7 +16,34 @@ nav {
     background-size: cover;
 background-repeat: no-repeat;
 }
-
+.navcontainer{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+.searchicon{
+    background-image: url(images/search.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+li {
+    float: right;
+    direction: rtl;
+  }
+  
+  li a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 .pContainer {
     position: absolute;
     top: 40%;
@@ -315,6 +342,7 @@ font-weight: bold;
     position: relative;
 }
 .newsbtn,.eventbtn{
+    padding-left: 5px;
     position: absolute;
     /* background-color: blue; */
     top:35%;
@@ -329,7 +357,8 @@ font-weight: bold;
   background-color: #0d31a8;
 background-image: url("images/wifi.svg");
 background-repeat: no-repeat;
-background-position: left;
+background-position:  5px;;
+background-size: 10px 10px;
   color:#fff
 }
 .eventbtn{
@@ -439,7 +468,13 @@ hr{
     background-position:right;
 }
 @media only screen and (max-width: 600px) {
+    nav{
+        margin-left: 25%;
+    }
+.navcontainer,.navbar{
+    display: block;
 
+}
     .section12{
        
         display: block; 
@@ -465,9 +500,19 @@ hr{
             padding-top: 2%;
             top:10%;
         }
+        .section10{
+            height: 1800px;
+        }
+        .newsbtn,.eventbtn{
+            right:80px
+        }
         .section11{
             height: 400px;
         }
+        .section12{
+            height: 500px;
+        }
+        
         
 }
 /* 
