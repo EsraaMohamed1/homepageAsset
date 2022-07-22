@@ -821,11 +821,13 @@ nav {
     .pContainer {
        
         text-align: center;
+        margin: auto;
+  width: 50%;
 
     }
 
     .pContainer button {
-        margin-left: 10%;
+        margin: auto;
     }
 
     /* section 2 */
@@ -882,7 +884,7 @@ nav {
 
     .section5 {
 padding-top: 300px;
-padding-bottom: 400px;
+padding-bottom: 450px;
 
 
     }
