@@ -356,11 +356,11 @@ nav {
     color: white;
 }
 
-@media only screen and (max-width:1600px) {
+/* @media only screen and (max-width:1600px) {
     .wrapper {
         flex-direction: column;
     }
-}
+} */
 
 .section4 {
     margin-top: 5%;
@@ -837,6 +837,14 @@ nav {
         text-align: center;
 
     }
+/* section 3 */
+.wrapper{
+    display: block;
+}
+.rightdivv{
+    width: 50%;
+    margin: auto;
+}
 
     /* section 8 */
     .sec8wrapper {
